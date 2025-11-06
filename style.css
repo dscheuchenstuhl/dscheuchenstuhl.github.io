@@ -48,7 +48,7 @@ table {
 
 #body{
   font-family: 'Asap', roboto, sans-serif;
-  font-size: calc(0.4em + 0.5vw);
+  font-size: calc(1em + 0.15vw);
   line-height: 1.5em;
   color: #150c21;
 }
@@ -82,13 +82,6 @@ h1 {
   font-size: 2.4em;
   line-height: 2.4em;
   font-weight: 500;
-}
-
-@media only screen and (max-width: 1000px) {
-    #main {
-      min-width: 90%;
-      max-width: 95%;
-    }
 }
 
 /**************************************************/
