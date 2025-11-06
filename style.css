@@ -85,9 +85,6 @@ h1 {
 }
 
 @media only screen and (max-width: 858px) {
-    html {
-        font-size: 20px;
-    }
     #main {
       min-width: 80%;
       max-width: 90%;
@@ -95,9 +92,6 @@ h1 {
 }
  
 @media only screen and (max-width: 780px) {
-    html {
-        font-size: 19px;
-    }
     #main {
       min-width: 80%;
       max-width: 90%;
@@ -105,9 +99,6 @@ h1 {
 }
  
 @media only screen and (max-width: 702px) {
-    html {
-        font-size: 18px;
-    }
     #main {
       min-width: 80%;
       max-width: 90%;
@@ -115,9 +106,6 @@ h1 {
 }
  
 @media only screen and (max-width: 624px) {
-    html {
-        font-size: 17px;
-    }
     #main {
       min-width: 80%;
       max-width: 90%;
