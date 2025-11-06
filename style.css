@@ -48,13 +48,13 @@ table {
 
 #body{
   font-family: 'Asap', roboto, sans-serif;
-  font-size: calc(0.5em + 0.4vw);
+  font-size: calc(0.4em + 0.5vw);
   line-height: 1.5em;
   color: #150c21;
 }
 
 #main {
-  width: 58em;
+  width: 54em;
   margin: 0px auto;
   position: relative;
   min-height: 100vh;
@@ -82,6 +82,42 @@ h1 {
   font-size: 2.4em;
   line-height: 2.4em;
   font-weight: 500;
+}
+
+/*
+Source - https://stackoverflow.com/questions/9174669/best-practice-font-size-for-mobile
+Posted by My Head Hurts
+Retrieved 2025-11-06, License - CC BY-SA 4.0
+*/
+
+@media (min-width: 858px) {
+    html {
+        font-size: 12px;
+    }
+}
+ 
+@media (min-width: 780px) {
+    html {
+        font-size: 11px;
+    }
+}
+ 
+@media (min-width: 702px) {
+    html {
+        font-size: 10px;
+    }
+}
+ 
+@media (min-width: 624px) {
+    html {
+        font-size: 9px;
+    }
+}
+ 
+@media (max-width: 623px) {
+    html {
+        font-size: 8px;
+    }
 }
 
 /**************************************************/
