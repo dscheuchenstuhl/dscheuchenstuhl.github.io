@@ -84,31 +84,38 @@ h1 {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 956px) {
+    #main {
+      min-width: 80%;
+      max-width: 85%;
+    }
+}
+
 @media only screen and (max-width: 858px) {
     #main {
-      min-width: 85%;
-      max-width: 90%;
+      min-width: 80%;
+      max-width: 85%;
     }
 }
  
 @media only screen and (max-width: 780px) {
     #main {
-      min-width: 85%;
-      max-width: 90%;
+      min-width: 80%;
+      max-width: 85%;
     }
 }
  
 @media only screen and (max-width: 702px) {
     #main {
-      min-width: 85%;
-      max-width: 90%;
+      min-width: 80%;
+      max-width: 85%;
     }
 }
  
 @media only screen and (max-width: 624px) {
     #main {
-      min-width: 85%;
-      max-width: 90%;
+      min-width: 80%;
+      max-width: 85%;
     }
 }
 
