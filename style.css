@@ -48,13 +48,13 @@ table {
 
 #body{
   font-family: 'Asap', roboto, sans-serif;
-  font-size: 1em;
+  font-size: calc(0.5em + 0.4vw);
   line-height: 1.5em;
   color: #150c21;
 }
 
 #main {
-  width: 54em;
+  width: 58em;
   margin: 0px auto;
   position: relative;
   min-height: 100vh;
