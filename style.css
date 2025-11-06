@@ -88,9 +88,6 @@ h1 {
     html {
         font-size: 20px;
     }
-    #main {
-      width: 50em;
-    }
 }
  
 @media only screen and (max-width: 780px) {
