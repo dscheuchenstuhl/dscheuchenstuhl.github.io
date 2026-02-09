@@ -1,0 +1,98 @@
+# ===============================
+# Site Settings
+# ===============================
+title: "Daniel Scheuchenstuhl"
+description: "AI & Robotics Research Engineer working on applied machine learning and intelligent cyber-physical systems"
+url: "https://dscheuchenstuhl.github.io"
+baseurl: ""
+
+# ===============================
+# Theme
+# ===============================
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "default"   # light theme
+
+masthead_title: " "
+
+# ===============================
+# Author
+# ===============================
+author:
+  name: "Daniel Scheuchenstuhl"
+  avatar: "/user_assets/images/profile.jpg"   # optional
+  bio: "AI & Robotics Research Engineer working on applied machine learning and intelligent cyber-physical systems"
+  location: "Vienna, Austria"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:daniel.scheuchenstuhl@gmx.at"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/dscheuchenstuhl"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-scheuchenstuhl-029770217/"
+
+# ===============================
+# Collections
+# ===============================
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:name/
+    order:
+      - project-e2e-deployment-of-vision-language-action-models.md
+      - project-e2e-deployment-of-industrial-vision-foundation-models.md
+      - project-industrial-ai-vision-blueprint.md
+
+# ===============================
+# Defaults
+# ===============================
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+
+# ===============================
+# Plugins (GitHub Pages Safe)
+# ===============================
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+
+# ===============================
+# Markdown
+# ===============================
+markdown: kramdown
+highlighter: rouge
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%d-%b-%y'
+
+# ===============================
+# Footer
+# ===============================
+atom_feed:
+  hide: true
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/dscheuchenstuhl"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-scheuchenstuhl-029770217/"

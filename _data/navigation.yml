@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: /about/
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Publications"
+    url: /publications/
+  - title: "CV"
+    url: /user_assets/Scheuchenstuhl_Daniel_CV.pdf
