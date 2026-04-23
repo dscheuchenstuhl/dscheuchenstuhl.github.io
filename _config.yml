@@ -2,9 +2,12 @@
 # Site Settings
 # ===============================
 title: "Daniel Scheuchenstuhl"
-description: "AI & Robotics Research Engineer working on applied machine learning and intelligent cyber-physical systems"
+description: "Physical AI Engineer specializing in autonomous systems that perceive, reason, and act in complex real-world environments"
 url: "https://dscheuchenstuhl.github.io"
 baseurl: ""
+og_image: "/user_assets/images/profile.jpg"
+twitter:
+  card: "summary"
 
 # ===============================
 # Theme
@@ -20,7 +23,7 @@ masthead_title: " "
 author:
   name: "Daniel Scheuchenstuhl"
   avatar: "/user_assets/images/profile.jpg"   # optional
-  bio: "AI & Robotics Research Engineer working on applied machine learning and intelligent cyber-physical systems"
+  bio: "Physical AI Engineer — building autonomous systems that perceive, reason, and act in complex real-world environments"
   location: "Vienna, Austria"
   links:
     - label: "Email"
@@ -44,6 +47,8 @@ collections:
       - project-e2e-deployment-of-vision-language-action-models.md
       - project-e2e-deployment-of-industrial-vision-foundation-models.md
       - project-industrial-ai-vision-blueprint.md
+      - project-10th-f1tenth-autonomous-grand-prix.md
+      - project-9th-f1tenth-autonomous-grand-prix.md
 
 # ===============================
 # Defaults
@@ -70,17 +75,12 @@ plugins:
   - jekyll-include-cache
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-last-modified-at
 
 # ===============================
 # Markdown
 # ===============================
 markdown: kramdown
 highlighter: rouge
-
-# Optional. The default date format, used if none is specified in the tag.
-last-modified-at:
-    date-format: '%d-%b-%y'
 
 # ===============================
 # Footer

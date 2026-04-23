@@ -4,6 +4,7 @@ layout: single
 excerpt: "Led the development of a scalable edge AI system for vision-based pick and place down-stream tasks"
 category: work
 order: 3
+description: "Scalable, hardware-independent edge AI architecture bridging vision inference with industrial control systems"
 tags: [Machine Learning, Computer Vision, Edge AI, System Architecture, Robotics]
 ---
 

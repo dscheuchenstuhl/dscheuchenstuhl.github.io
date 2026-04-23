@@ -4,9 +4,8 @@ layout: single
 permalink: /portfolio/
 ---
 
-## Professional Experience (R&D Activities & Production Systems)
+## Professional Experience
 
-<div class="grid grid--3">
 {% assign work_projects = site.portfolio | where: "category", "work" | sort: "order" %}
 {% for project in work_projects %}
   <div class="card">
@@ -16,11 +15,9 @@ permalink: /portfolio/
     <p>{{ project.excerpt }}</p>
   </div>
 {% endfor %}
-</div>
 
 ## Extracurricular & Competitive Projects
 
-<div class="grid grid--3">
 {% assign extra_projects = site.portfolio | where: "category", "extracurricular" | sort: "order" %}
 {% for project in extra_projects %}
   <div class="card">
@@ -30,5 +27,3 @@ permalink: /portfolio/
     <p>{{ project.excerpt }}</p>
   </div>
 {% endfor %}
-
-</div>

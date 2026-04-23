@@ -4,6 +4,7 @@ layout: single
 excerpt: "Led the end-to-end benchmarking, optimization, and production deployment of an industrial vision foundation model for real-time edge inference achieving 50× lower inference latency, while also refactoring and scaling the data engineering pipeline to support rapid, production-grade iteration, accelerating data engineering workflows by 100×"
 category: work
 order: 2
+description: "Production deployment achieving 50× lower inference latency and 100× faster data workflows for industrial vision"
 tags: [Machine Learning, Computer Vision, Visual Quality Inspection, Edge AI]
 ---
 
