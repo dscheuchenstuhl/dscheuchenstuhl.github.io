@@ -1,7 +1,8 @@
 ---
 title: "10th F1TENTH Autonomous Grand Prix"
 layout: single
-excerpt: "Co-built and co-developed the full software stack for perception, planning and control of our 1:10 scaled autonomous race car"
+description: "Secured 3rd place at ICRA 2022 — evolved perception, planning, and control algorithms for high-speed autonomous racing"
+excerpt: "Secured 3rd place at ICRA 2022 — evolved perception, planning, and control algorithms and benchmarked them against novel approaches for high-speed 1:10 scale autonomous racing"
 category: extracurricular
 order: 1
 tags: [Machine Learning, Computer Vision, Autonomous Driving, Robotics]

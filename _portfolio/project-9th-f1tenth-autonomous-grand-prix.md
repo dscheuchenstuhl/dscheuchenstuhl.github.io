@@ -1,7 +1,8 @@
 ---
 title: "9th F1TENTH Autonomous Grand Prix"
 layout: single
-excerpt: "Co-built and co-developed the full software stack for perception, planning and control of our 1:10 scaled autonomous race car"
+description: "Won 1st place at IROS 2021 — built the full LiDAR-based perception, planning, and control stack from scratch"
+excerpt: "Won 1st place at IROS 2021 — designed and implemented the complete LiDAR-based perception, planning, and control software stack for a 1:10 scale autonomous race car"
 category: extracurricular
 order: 2
 tags: [Machine Learning, Computer Vision, Autonomous Driving, Robotics]
